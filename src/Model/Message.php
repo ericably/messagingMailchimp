@@ -105,6 +105,4 @@ class Message
         $this->receiver = $receiver;
         return $this;
     }
-
-
 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1537b38f-7bec-482a-9833-198e44eef611" name="Default" comment="" />
+    <list default="true" id="1537b38f-7bec-482a-9833-198e44eef611" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,27 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessageType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/MessageType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#28#50#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/MessageFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConversationFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Factory/ConversationFactory.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conversation.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conversation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Conversation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/message/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -95,20 +85,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailerInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/EmailerInterface.php">
+      <file leaf-file-name="FixturesEmailer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FixturesEmailer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php">
+      <file leaf-file-name="SwiftEmailer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/SwiftEmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionalClient.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Mandrill/TransactionalClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -127,6 +126,9 @@
       <find>marmk</find>
       <find>Entity/Messag</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/Model/Message.php" />
         <option value="$PROJECT_DIR$/src/Helper/Emailer/SwiftEmailer.php" />
         <option value="$PROJECT_DIR$/src/Helper/Emailer/MailchimpEmailer.php" />
-        <option value="$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php" />
         <option value="$PROJECT_DIR$/src/Helper/Emailer/EmailerInterface.php" />
         <option value="$PROJECT_DIR$/src/Factory/MessageFactory.php" />
         <option value="$PROJECT_DIR$/src/Factory/ConversationFactory.php" />
@@ -163,6 +164,7 @@
         <option value="$PROJECT_DIR$/tests/MessageTest.php" />
         <option value="$PROJECT_DIR$/tests/ContactTest.php" />
         <option value="$PROJECT_DIR$/src/Entity/Conversation.php" />
+        <option value="$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php" />
       </list>
     </option>
   </component>
@@ -294,6 +296,7 @@
     <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -305,6 +308,41 @@
             <path>
               <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
               <item name="messaging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="Emailer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Mandrill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="messaging" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,15 +415,16 @@
       <workItem from="1602848472801" duration="11449000" />
       <workItem from="1602882832458" duration="29847000" />
       <workItem from="1603016526179" duration="38234000" />
-      <workItem from="1603073084345" duration="233000" />
+      <workItem from="1603073084345" duration="1070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81109000" />
+    <option name="totallyTimeSpent" value="81946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.253125" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,7 +433,7 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -432,6 +471,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#325#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,6 +490,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#325#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -534,6 +579,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#325#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/message/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/ConversationRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -612,28 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mandrill/TransactionalClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/SwiftEmailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/MailchimpEmailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
@@ -707,8 +727,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Conversation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/message/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/FixturesEmailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helper/Emailer/SwiftEmailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mandrill/TransactionalClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>

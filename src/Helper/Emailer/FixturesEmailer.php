@@ -23,22 +23,22 @@ class FixturesEmailer implements EmailerInterface
         return [
             [
                 "sender" => "toto@email.com",
-                "message" => "Hello It is mes",
+                "text" => "Hello It is mes",
                 "receivers" => "tata@email.com",
             ],
             [
                 "sender" => "tata@email.com",
-                "message" => "WHo are you ",
+                "text" => "WHo are you ",
                 "receivers" => "toto@email.com",
             ],
             [
                 "sender" => "toto@email.com",
-                "message" => "toto and you",
+                "text" => "toto and you",
                 "receivers" => "tata@email.com",
             ],
             [
                 "sender" => "tata@email.com",
-                "message" => "tata is my name",
+                "text" => "tata is my name",
                 "receivers" => "toto@email.com",
             ],
             [
@@ -55,17 +55,17 @@ class FixturesEmailer implements EmailerInterface
             return [
                 [
                     "sender" => "toto@email.com",
-                    "message" => "Hello It is mes",
+                    "text" => "Hello It is mes",
                     "receivers" => "tata@email.com",
                 ],
                 [
                     "sender" => "toto@email.com",
-                    "message" => "toto and you",
+                    "text" => "toto and you",
                     "receivers" => "tata@email.com",
                 ],
                 [
                     "sender" => "toto@email.com",
-                    "message" => "nice to meet you",
+                    "text" => "nice to meet you",
                     "receivers" => "tata@email.com",
                 ],
             ];
@@ -74,12 +74,12 @@ class FixturesEmailer implements EmailerInterface
         return [
             [
                 "sender" => "tata@email.com",
-                "message" => "WHo are you ",
+                "text" => "WHo are you ",
                 "receivers" => "toto@email.com",
             ],
             [
                 "sender" => "tata@email.com",
-                "message" => "tata is my name",
+                "text" => "tata is my name",
                 "receivers" => "toto@email.com",
             ],
         ];

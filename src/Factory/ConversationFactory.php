@@ -11,5 +11,4 @@ class ConversationFactory
     {
         return new Conversation();
     }
-
 }
