@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Message{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="https://www2.leemo.fr/media/f577160add8ef5ef6b8f87bea269f1cc.svg" alt="" width="100" height="100">
+            <h2>MESSAGERIE</h2>
+        </div>
+        {% for message in app.flashes('success')  %}
+            <div class="alert alert-success" role="alert">{{ message }}</div>
+        {% endfor %}
+        <div>
+            <ul>
+                {% for conversation in conversation_messages %}
+                    <li>{{ conversation.text }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div>
+            {{ form_start(form) }}
+            <div class="form-group">
+                {{ form_row(form.receiver) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.subject) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.content) }}
+            </div>
+            <div class="form-group">
+                <button class="btn btn-danger btn-lg" type="submit">Envoyer</button>
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
+
+{% endblock %}
