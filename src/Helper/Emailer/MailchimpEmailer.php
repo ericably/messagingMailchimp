@@ -49,7 +49,7 @@ class MailchimpEmailer implements EmailerInterface
 
     public function getConversationMessages(Conversation $conversation): array
     {
-        $repo = $this->conversationRepository->findOneBy(['id' => $conversation->getId()]);
+        $repo = $this->conversationRepository->findOneBy(["id" => $conversation->getId()]);
         if ($repo !== null){
             $sender = $repo->getContact()->getEmail();
             $receiver = $repo->getReceiver()->getEmail();
@@ -70,7 +70,7 @@ class MailchimpEmailer implements EmailerInterface
             }
         }
 
-        return json_decode(json_encode($conversationMessages),true);
+        return array_reverse(json_decode(json_encode($conversationMessages),true));
     }
 
     public function getSenderContactConversationMessage(Contact $contact, Conversation $conversation): array

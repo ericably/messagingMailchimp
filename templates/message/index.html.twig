@@ -3,22 +3,38 @@
 {% block title %}Message{% endblock %}
 
 {% block body %}
-
     <div class="container">
-        <div class="py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="https://www2.leemo.fr/media/f577160add8ef5ef6b8f87bea269f1cc.svg" alt="" width="100" height="100">
-            <h2>MESSAGERIE</h2>
+        <div class="page-content page-container" id="page-content">
+            <div class="padding">
+                <div class="row container d-flex justify-content-center">
+                    <div class="col-md-12">
+                        <div>
+                            <div class="card-header">
+                                <h4 class="card-title"><strong>Messagerie</strong></h4>
+                            </div>
+                            <div class="ps-container ps-theme-default ps-active-y" id="chat-content"
+                                 style="overflow-y: scroll !important; height:400px !important;">
+                                {% for conversation in conversation_messages %}
+                                    <div class="media media-chat">
+                                        <div class="media-body">
+                                            <p>{{ conversation.subject }}</p>
+                                            <p>{{ conversation.text }}</p>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                                <div class="media media-chat media-chat-reverse">
+                                    <div class="media-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        {% for message in app.flashes('success')  %}
+        {% for message in app.flashes('success') %}
             <div class="alert alert-success" role="alert">{{ message }}</div>
         {% endfor %}
-        <div>
-            <ul>
-                {% for conversation in conversation_messages %}
-                    <li>{{ conversation.text }}</li>
-                {% endfor %}
-            </ul>
-        </div>
         <div>
             {{ form_start(form) }}
             <div class="form-group">
@@ -31,7 +47,7 @@
                 {{ form_row(form.content) }}
             </div>
             <div class="form-group">
-                <button class="btn btn-danger btn-lg" type="submit">Envoyer</button>
+                <button class="btn btn-primary btn-lg" type="submit">Envoyer</button>
             </div>
             {{ form_end(form) }}
         </div>

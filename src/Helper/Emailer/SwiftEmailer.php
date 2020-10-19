@@ -45,7 +45,7 @@ class SwiftEmailer implements EmailerInterface
 
     public function getConversationMessages(Conversation $conversation): array
     {
-        // TODO: Implement getConversationMessages() method.
+        return [];
     }
 
     public function getSenderContactConversationMessage(Contact $contact, Conversation $conversation): array
