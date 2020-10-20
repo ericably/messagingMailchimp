@@ -38,13 +38,12 @@ class MessageController extends AbstractController
             $conversation = $conversationFactory->create();
         }
 
-        $message = $messageFactory->create();
-        $message->setSender($this->getParameter('app_sender'));
+        $conversationMessages = $emailer->getConversationMessages($conversation);
+
+        $message = $messageFactory->create($this->getParameter('app_sender'));
 
         $form = $this->createForm(MessageType::class, $message);
         $form->handleRequest($request);
-
-        $conversationMessages = $emailer->getConversationMessages($conversation);
 
         if ($form->isSubmitted() && $form->isValid()){
             $contact = $contactFactory->create($message->getSender());
