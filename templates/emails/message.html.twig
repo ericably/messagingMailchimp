@@ -1,0 +1,22 @@
+<container>
+    <row>
+        <columns>
+            <h1>Message de {{ message.sender }}</h1>
+            <callout class="primary">
+                <p>{{ message.text }}</p>
+            </callout>
+
+        </columns>
+    </row>
+
+    <wrapper class="secondary">
+        <spacer size="16"></spacer>
+        <row>
+            <columns small="12" large="6">
+                <h3>Informations du contact:</h3>
+                <p>Email: <a href="mailto:{{ message.sender }}">{{ message.sender }}</a></p>
+            </columns>
+        </row>
+    </wrapper>
+
+</container>
